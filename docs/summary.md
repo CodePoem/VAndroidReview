@@ -5,8 +5,8 @@
 - 核心基础
 
   - [数据结构]()
-  - [算法]()
-  - [设计模式]()
+  - [算法](https://codepoem.github.io/VAlgorithm/)
+  - [设计模式](https://codepoem.github.io/VDesignPatterns/)
   - [Java基础]()
 
 - Android基础
