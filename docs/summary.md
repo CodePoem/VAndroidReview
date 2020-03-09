@@ -62,8 +62,11 @@
   - ContentProvider
 
 - 通信
+  
+  - [网络](/net/Net.md)
+  
+    - [Http](/net/Http.md)
 
-  - Http
 
   - Socket
 
@@ -89,7 +92,7 @@
 
 - 性能优化
 
-  - 缩包
+  - [缩包](/performance/Slimming.md)
 
   - 渲染
 
@@ -98,6 +101,8 @@
   - 内存
 
   - 电量
+
+  - [Proguard](/performance/Proguard.md)
 
 - 效率
 
@@ -124,3 +129,11 @@
     - 多渠道
 
     - 持续集成CI
+
+- 奇技
+
+  - [Git](/tricks/Git.md)
+
+  - [SuppressWarnings](/tricks/SuppressWarnings.md)
+
+  - [Hook](/tricks/Hook.md)
