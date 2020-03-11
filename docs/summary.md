@@ -10,6 +10,8 @@
 
 - Java基础
 
+  - [双亲委派](/javabase/Entrust.md)
+
 - Android基础
 
   - 四大组件
@@ -63,12 +65,25 @@
 
 - 通信
   
-  - [网络](/net/Net.md)
+  - [序列化](/communication/Serialization.md)
   
-    - [Http](/net/Http.md)
+  - [网络](/communication/net/Net.md)
 
+    - [Socket](/communication/net/Socket.md)
 
-  - Socket
+    - [TCP](/communication/net/TCP.md)
+
+    - [Http](/communication/net/Http.md)
+
+  - [IPC](/communication/ipc/IPC.md)
+
+    - [Binder](/communication/ipc/Binder.md)
+
+    - [AIDL](/communication/ipc/Binder.md)
+
+  - [ITC](/communication/itc/ITC.md)
+
+    - [Handler](/communication/itc/Handler.md)
 
   - Bluetooth
 
