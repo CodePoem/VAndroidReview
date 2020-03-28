@@ -4,11 +4,20 @@
 
 - 核心基础
 
-  - [数据结构]()
+  - 数据结构
   - [算法](https://codepoem.github.io/VAlgorithm/)
   - [设计模式](https://codepoem.github.io/VDesignPatterns/)
 
 - Java基础
+
+  - [Object](/javabase/Entrust.md)
+
+  - 集合
+
+    - [ArrayList](/javabase/collections/ArrayList.md)
+    - [HashMap](/javabase/collections/HashMap.md)
+    - [ConcurrentHashMap](/javabase/collections/ConcurrentHashMap.md)
+    - [LinkHashMap](/javabase/collections/LinkHashMap.md)
 
   - [双亲委派](/javabase/Entrust.md)
 
