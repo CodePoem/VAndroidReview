@@ -12,6 +12,8 @@
 
   - [Object](/javabase/Entrust.md)
 
+  - [双亲委派](/javabase/Entrust.md)
+
   - 集合
 
     - [ArrayList](/javabase/collections/ArrayList.md)
@@ -19,7 +21,12 @@
     - [ConcurrentHashMap](/javabase/collections/ConcurrentHashMap.md)
     - [LinkHashMap](/javabase/collections/LinkHashMap.md)
 
-  - [双亲委派](/javabase/Entrust.md)
+  - 并发
+
+    - [线程相关](/javabase/concurrent/Thread.md)
+    - [CAS](/javabase/concurrent/CAS.md)
+    - [AQS](/javabase/concurrent/AQS.md)
+    - [Lock](/javabase/concurrent/Lock.md)
 
 - Android基础
 
