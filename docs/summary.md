@@ -10,7 +10,7 @@
 
 - Java基础
 
-  - [Object](/javabase/Entrust.md)
+  - [Object](/javabase/Object.md)
 
   - [双亲委派](/javabase/Entrust.md)
 
@@ -91,6 +91,8 @@
 
     - [Http](/communication/net/Http.md)
 
+    - [Https](/communication/net/Https.md)
+
   - [IPC](/communication/ipc/IPC.md)
 
     - [Binder](/communication/ipc/Binder.md)
@@ -123,7 +125,7 @@
 
 - 性能优化
 
-  - [缩包](/performance/Slimming.md)
+  - [缩包](/performance/slimming/Slimming.md)
 
   - 渲染
 
@@ -134,6 +136,10 @@
   - 电量
 
   - [Proguard](/performance/Proguard.md)
+
+- 兼容适配
+
+  - [UI适配](/adaptation/UIAdaptation.md)
 
 - 效率
 
