@@ -141,7 +141,7 @@
 
   - [UI适配](/adaptation/UIAdaptation.md)
 
-- 效率
+- 质量效能
 
   - 调试
 
@@ -150,6 +150,12 @@
     - 抓包
 
     - Chrom Inspect
+
+  - 静态分析
+
+    - [AndroidLint](/lint/AndroidLint.md)
+
+      - [Android Lint Stand Issue](/lint/AndroidLintStandIssue.md)
 
   - 测试
 

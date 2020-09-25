@@ -123,7 +123,7 @@ if (BuildConfig.DEBUG &&!(speed > 0)) {
 
 - WrongConstant（Incorrect constant）：确保当调⽤⽅法时只允许⼀组特 定的常数作为参数。
 
-- ExportedContentProvider（Content provider does not require permission）：ContentProvider默认是暴露出去的，系统的任何应⽤能够 访问，如果要保护隐私数据，可以在Manifest⽂件中指定export属性为 false不暴露数据，或者提供⼀个权限来准许其他应⽤访问。 
+- ExportedContentProvider（Content provider does not require permission）：ContentProvider默认是暴露出去的，系统的任何应⽤能够 访问，如果要保护隐私数据，可以在Manifest⽂件中指定export属性为 false不暴露数据，或者提供⼀个权限来准许其他应⽤访问。
 
 - ExportedReceiver（Receiver does not require permission）：同 ContentProvider⼀样，Receiver的export属性默认为true。如果要保护隐 私数据，可以在Manifest⽂件中指定export属性为false不暴露数据，或者 提供⼀个权限来准许其他应⽤访问。 
 
@@ -157,11 +157,17 @@ if (BuildConfig.DEBUG &&!(speed > 0)) {
 
 - NestedWeights（Nested layout weights）：布局权重会要求组件测量两 次，当⼀个⾮零权重的线性布局在另⼀个⾮零权重的线性布局中嵌套，测 量次数将呈⼏何数字增⻓长。
 
-- Overdraw（Painting regions more than once ）：过度绘制问题。 UselessParent（Useless parent layout）：⼀个带有孩⼦节点但没有兄弟 姐妹节点的布局，它既不是scrollview或者根布局，并且也没有背景，那 么它是可以移除的。 UnusedResources（Unused resources ）：未使⽤资源。 UselessLeaf（Useless leaf layout）：⼀个没有孩⼦节点且没有设置背景 的布局是可以被移除的，这样能减少布局层级。 TooManyViews（Layout has too many views）：在⼀个布局中使⽤太多 的View会影响性能，考虑使⽤⼀些技巧减少View的数量。最⼤数量默认是 80，你也可以⾃定义ANDROID_LINT_MAX_VIEW_COUNT环境变量来修改 这个默认配置。 UnusedNamespace（Unused namespace）：存在未使⽤的命名空间。
+- Overdraw（Painting regions more than once ）：过度绘制问题。 UselessParent（Useless parent layout）：⼀个带有孩⼦节点但没有兄弟 姐妹节点的布局，它既不是scrollview或者根布局，并且也没有背景，那 么它是可以移除的。 
+
+- UnusedResources（Unused resources ）：未使⽤资源。 UselessLeaf（Useless leaf layout）：⼀个没有孩⼦节点且没有设置背景 的布局是可以被移除的，这样能减少布局层级。 TooManyViews（Layout has too many views）：在⼀个布局中使⽤太多 的View会影响性能，考虑使⽤⼀些技巧减少View的数量。最⼤数量默认是 80，你也可以⾃定义ANDROID_LINT_MAX_VIEW_COUNT环境变量来修改 这个默认配置。
+
+- UnusedNamespace（Unused namespace）：存在未使⽤的命名空间。
 
 ## Usability:Typography（可⽤性：排版）
 
-- TypographyEllipsis（Ellipsis string can be replaced with ellipsis character）：字符串 "..."应该⽤专⽤的省略符(…, …)。 TypographyFractions（Fraction string can be replaced with fraction character ）：某些字符串, ⽐如 1/2, 和 1/4, 应该⽤专⻔门的字符来表示， ⽐如 ½ (½) 和 ¼ (¼)。 TypographyDashes（Hyphen can be replaced with dash ）：特殊字符 需⽤编码代替：“–”需要⽤“–” （&#8211）；“—”需要⽤“—” （&#8212） ，“-”这个是连字符 “–”代表范围 “—”是破折号。在有范围 和破折的⽂案场景，请不要⽤连字符 这使你的APP更优雅。
+- TypographyEllipsis（Ellipsis string can be replaced with ellipsis character）：字符串 "..."应该⽤专⽤的省略符(…, …)。 TypographyFractions（Fraction string can be replaced with fraction character ）：某些字符串, ⽐如 1/2, 和 1/4, 应该⽤专⻔门的字符来表示， ⽐如 ½ (½) 和 ¼ (¼)。
+
+- TypographyDashes（Hyphen can be replaced with dash ）：特殊字符 需⽤编码代替：“–”需要⽤“–” （&#8211）；“—”需要⽤“—” （&#8212） ，“-”这个是连字符 “–”代表范围 “—”是破折号。在有范围 和破折的⽂案场景，请不要⽤连字符 这使你的APP更优雅。
 
 ## Usability:Icons（可⽤性：图标）
 
