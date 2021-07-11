@@ -17,13 +17,15 @@
         window.$docsify = {
             name: 'VAndroidReview',
             repo: 'https://github.com/CodePoem/VAndroidReview',
+            themeColor: '#EF9a9a',
             // 封面页
             coverpage: 'cover.md',
             // 主页
-            homepage: 'https://raw.githubusercontent.com/CodePoem/VAndroidReview/master/README.md',
+            homepage: 'https://raw.githubusercontents.com/CodePoem/VAndroidReview/master/README.md',
             // 侧边栏
+            loadSidebar: true,
             loadSidebar: 'summary.md',
-
+            subMaxLevel: 2,
             // 搜索
             search: {
                 paths: 'auto',
@@ -46,6 +48,12 @@
                 // To avoid search index collision
                 // between multiple websites under the same domain
                 namespace: 'VAndroidReView',
+            },
+            // 阅读进度
+            progress: {
+                position: "top",
+                color: "var(--theme-color,#EF9a9a)",
+                height: "3px",
             }
         }
     </script>
@@ -56,6 +64,12 @@
     <script src="https://unpkg.com/docsify-copy-code@2"></script>
     <!--分页导航-->
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!--阅读进度-->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+    <!--代码高亮-->
+    <!--https://cdn.jsdelivr.net/npm/prismjs@1/components/-->
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
 </body>
 
 </html>

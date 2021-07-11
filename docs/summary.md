@@ -1,6 +1,6 @@
-- [Home](/)
+- 总览
 
-- [总览图]()
+  - [总览](/overview/Overview.md)
 
 - 核心基础
 
@@ -8,7 +8,7 @@
   - [算法](https://codepoem.github.io/VAlgorithm/)
   - [设计模式](https://codepoem.github.io/VDesignPatterns/)
 
-- Java基础
+- Java 基础
 
   - [Object](/javabase/Object.md)
 
@@ -28,10 +28,10 @@
     - [AQS](/javabase/concurrent/AQS.md)
     - [Lock](/javabase/concurrent/Lock.md)
 
-- Android基础
+- Android 基础
 
   - 四大组件
-  
+
     - [Activity](/androidbase/Activity.md)
     - [Service](/androidbase/Service.md)
     - [ContentProvider](/androidbase/ContentProvider.md)
@@ -55,7 +55,7 @@
 
   - Daivik
 
-  - ART（4.4推出，5.0默认）
+  - ART（4.4 推出，5.0 默认）
 
 - UI
 
@@ -70,7 +70,7 @@
   - Resource
 
 - 数据持久化
-  
+
   - SQLite
 
   - File
@@ -80,9 +80,9 @@
   - ContentProvider
 
 - 通信
-  
+
   - [序列化](/communication/Serialization.md)
-  
+
   - [网络](/communication/net/Net.md)
 
     - [Socket](/communication/net/Socket.md)
@@ -107,7 +107,7 @@
 
   - NFC
 
-  - USB串口
+  - USB 串口
 
   - Headset
 
@@ -139,7 +139,7 @@
 
 - 兼容适配
 
-  - [UI适配](/adaptation/UIAdaptation.md)
+  - [UI 适配](/adaptation/UIAdaptation.md)
 
 - 质量效能
 
@@ -163,7 +163,7 @@
 
     - 集成测试
 
-    - UI测试
+    - UI 测试
 
   - 打包发布
 
@@ -171,7 +171,7 @@
 
     - 多渠道
 
-    - 持续集成CI
+    - 持续集成 CI
 
 - 奇技
 
